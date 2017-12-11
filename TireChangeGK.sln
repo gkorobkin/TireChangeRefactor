@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{81A4D3A2-DF86-4E7B-AF7C-9FD4ED3097AD}"
+	ProjectSection(SolutionItems) = preProject
+		README-refactoring.md = README-refactoring.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TireChangeJS", "TireChangeJS\TireChangeJS.csproj", "{30430C16-13D4-465D-BCB7-172E7253B507}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TireChangeCS", "TireChangeRefactor\TireChangeCS.csproj", "{B246AFAB-7EC8-4467-828A-7F4958EAC70A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TireChangeCSTests", "TireChangeRefactor.Tests\TireChangeCSTests.csproj", "{93D85E97-A4A4-41BC-B8CE-AEA6A64473EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30430C16-13D4-465D-BCB7-172E7253B507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30430C16-13D4-465D-BCB7-172E7253B507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30430C16-13D4-465D-BCB7-172E7253B507}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30430C16-13D4-465D-BCB7-172E7253B507}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B246AFAB-7EC8-4467-828A-7F4958EAC70A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B246AFAB-7EC8-4467-828A-7F4958EAC70A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B246AFAB-7EC8-4467-828A-7F4958EAC70A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B246AFAB-7EC8-4467-828A-7F4958EAC70A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93D85E97-A4A4-41BC-B8CE-AEA6A64473EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93D85E97-A4A4-41BC-B8CE-AEA6A64473EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93D85E97-A4A4-41BC-B8CE-AEA6A64473EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93D85E97-A4A4-41BC-B8CE-AEA6A64473EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8781425-9BEC-46F1-A965-357E0A69484D}
+	EndGlobalSection
+EndGlobal

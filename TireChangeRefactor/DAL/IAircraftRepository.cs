@@ -5,6 +5,6 @@ namespace TireChangeRefactor.DAL
 {
     public interface IAircraftRepository
     {
-        IEnumerable<AircraftModel> GetAll();
+        IEnumerable<(AircraftModel model, int LandingsToChange)> GetAll();
     }
 }
