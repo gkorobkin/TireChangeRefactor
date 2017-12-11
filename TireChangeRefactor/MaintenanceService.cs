@@ -15,7 +15,7 @@ namespace TireChangeRefactor
         /// Gets all the aircraft that are due for a tire change.
         /// </summary>
         /// <returns>An array of aircraft that require tire changes according to mfg specifications</returns>
-        public AircraftModel[] GetAllAircraftDueForTireChange()
+        public IEnumerable<AircraftModel> GetAllAircraftDueForTireChange()
         {
             // There are 3 aircraft manufactures, each with different requirements 
             //  for when the tires need to be changed
